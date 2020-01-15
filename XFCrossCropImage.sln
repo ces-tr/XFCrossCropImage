@@ -1,0 +1,41 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XFCrossCropImage.iOS", "XFCrossCropImage.iOS\XFCrossCropImage.iOS.csproj", "{7A0AC37A-8DB3-403E-B572-A5C3D2DF6F55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XFCrossCropImage.Android", "XFCrossCropImage.Android\XFCrossCropImage.Android.csproj", "{746FEB32-1035-4811-9DB6-08029B063BE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XFCrossCropImage", "XFCrossCropImage\XFCrossCropImage.csproj", "{6C9B649C-B940-4614-BB91-8338756536AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Soluiton Items", "Soluiton Items", "{94B0128D-EE4E-4438-9A41-8CD98B5F6A8E}"
+	ProjectSection(SolutionItems) = preProject
+		XFCrossCropImage.nuspec = XFCrossCropImage.nuspec
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Library", "Library", "{5701C3CE-ED2E-488A-B755-C8AC6C582A87}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A0AC37A-8DB3-403E-B572-A5C3D2DF6F55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A0AC37A-8DB3-403E-B572-A5C3D2DF6F55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A0AC37A-8DB3-403E-B572-A5C3D2DF6F55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A0AC37A-8DB3-403E-B572-A5C3D2DF6F55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{746FEB32-1035-4811-9DB6-08029B063BE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{746FEB32-1035-4811-9DB6-08029B063BE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{746FEB32-1035-4811-9DB6-08029B063BE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{746FEB32-1035-4811-9DB6-08029B063BE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C9B649C-B940-4614-BB91-8338756536AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C9B649C-B940-4614-BB91-8338756536AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C9B649C-B940-4614-BB91-8338756536AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C9B649C-B940-4614-BB91-8338756536AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6C9B649C-B940-4614-BB91-8338756536AB} = {5701C3CE-ED2E-488A-B755-C8AC6C582A87}
+		{746FEB32-1035-4811-9DB6-08029B063BE2} = {5701C3CE-ED2E-488A-B755-C8AC6C582A87}
+		{7A0AC37A-8DB3-403E-B572-A5C3D2DF6F55} = {5701C3CE-ED2E-488A-B755-C8AC6C582A87}
+	EndGlobalSection
+EndGlobal
